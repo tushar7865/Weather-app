@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/weather-favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container" style="margin-left: 7px;
+    margin-top: 69px;
+    background-color: aquamarine;
+    color: blue;
+    text-align: center;
+    padding: 13px;
+">
+        <h1>Weather App</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name" style="border-radius: 12px;
+        background-color: floralwhite;
+        color: whitesmoke;
+        width: 230px;
+        padding: 8px;
+        text-align: center;
+    ">
+        <button onclick="getWeather()" style="background-color: brown;
+        color: white;
+        padding: 4px;
+        margin-left: 12px;
+        border-radius: 15px;">Get Weather</button>
+        <div id="weatherDisplay" class="weather-display"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
